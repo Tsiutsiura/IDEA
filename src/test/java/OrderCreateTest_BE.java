@@ -20,6 +20,9 @@ public class OrderCreateTest_BE extends GeneralMethodth {
 
 
 
+
+
+
         //Открытие сайта
         fireFoxDriver.get("https://www.bestessays.com/");
         fireFoxDriver.manage().window().maximize();
