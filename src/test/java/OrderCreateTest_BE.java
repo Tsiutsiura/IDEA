@@ -18,6 +18,8 @@ public class OrderCreateTest_BE extends GeneralMethodth {
     public void createOrder() throws InterruptedException {
         // FirefoxDriver fireFoxDriver = new FirefoxDriver();
 
+
+
         //Открытие сайта
         fireFoxDriver.get("https://www.bestessays.com/");
         fireFoxDriver.manage().window().maximize();
