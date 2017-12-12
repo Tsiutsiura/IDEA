@@ -39,7 +39,7 @@ public class SeleniumDemoTest {
         fireFoxDriver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
         //как достучатся к элементу
-        //WebElement targetElement = fireFoxDriver.findElement (By.cssSelector("#_desktop_user_info"));
+        //WebElement targetElement = driver.findElement (By.cssSelector("#_desktop_user_info"));
         fireFoxDriver.findElement(By.cssSelector("#email")).sendKeys("webinar.test@gmail.com");
         fireFoxDriver.findElement(By.cssSelector("#passwd")).sendKeys("Xcg7299bnSmMuRLp9ITw");
         fireFoxDriver.findElement(By.xpath("//button[@class='btn btn-primary btn-lg btn-block ladda-button']")).click();
@@ -50,19 +50,19 @@ public class SeleniumDemoTest {
             e.printStackTrace();
         }
 
-       //fireFoxDriver.findElement(By.xpath("//li[@id='subtab-AdminCatalog']")).click;
+       //driver.findElement(By.xpath("//li[@id='subtab-AdminCatalog']")).click;
 
        /*//Добавляем ожидания для конкретного события, после наведения курсора
 
-        FluentWait wait = new WebDriverWait(fireFoxDriver, 70);
+        FluentWait wait = new WebDriverWait(driver, 70);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#subtab-AdminCategories")));*/
 
         // Переход по выпадающему списку
 
         Actions  actions = new Actions(fireFoxDriver);
 
-        /*actions.moveToElement(fireFoxDriver.findElement(By.cssSelector("#subtab-AdminCatalog")))
-        .moveToElement(fireFoxDriver.findElement(By.cssSelector("#subtab-AdminCategories")))
+        /*actions.moveToElement(driver.findElement(By.cssSelector("#subtab-AdminCatalog")))
+        .moveToElement(driver.findElement(By.cssSelector("#subtab-AdminCategories")))
         .click().build().perform();*/
 
         WebElement category = fireFoxDriver.findElement(By.xpath("//li[@id='subtab-AdminCatalog']"));

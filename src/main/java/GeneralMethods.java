@@ -1,40 +1,42 @@
-import org.eclipse.jetty.util.Scanner;
+import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
 
-public class GeneralMethods {
+public class GeneralMethods extends Assert {
 
+   /* private int indicatorBrowser = 0;
 
-
-   /* private int browser;
+    WebDriver driver;
 
     public GeneralMethods(int browser) {
-        this.browser = browser;
+        this.indicatorBrowser = browser;
 
-        switch (this.browser){
-            case 0:
-                FirefoxDriver fireFoxDriver = new FirefoxDriver();
-            case 1:
-                ChromeDriver chromeDriver = new ChromeDriver();
+        if(indicatorBrowser == 0) {
+            driver = new FirefoxDriver();
+        } else if (indicatorBrowser == 1) {
+            driver = new ChromeDriver();
+        } else {
+            System.out.println("browser don`t check");
         }
+    }
+
+    public GeneralMethods() {
     }*/
 
+    WebDriver driver = new FirefoxDriver();
 
-    FirefoxDriver fireFoxDriver = new FirefoxDriver();
-
-    Actions actions = new Actions(fireFoxDriver);
 
     public void openSite(String s) {
-        fireFoxDriver.get(s);
-        fireFoxDriver.manage().window().maximize();
+        driver.get(s);
+        driver.manage().window().maximize();
     }
 
 
     public WebElement finder(String st) {
-        return fireFoxDriver.findElement(By.xpath(st));
+        return driver.findElement(By.xpath(st));
     }
 
     public void sleep(int time) {
