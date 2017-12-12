@@ -14,9 +14,7 @@ public class OrderCreateTest_BE extends GeneralMethods {
     public void createOrder() throws InterruptedException {
 
         //Открытие сайта
-        fireFoxDriver.get("https://www.bestessays.com/");
-        fireFoxDriver.manage().window().maximize();
-
+        openSite("https://www.bestessays.com/");
 
 
         sleep(5000);
@@ -26,7 +24,7 @@ public class OrderCreateTest_BE extends GeneralMethods {
         finder("//span[@id='bio_ep_close']").click();*/
 
         //Переход на ОФ и ее заполнение
-        Actions actions = new Actions(fireFoxDriver);
+
         actions.moveToElement(finder("//div[@class='Procced  bottomPreOrder clearfix']")).click().perform();
         sleep(5000);
         finder("//input[@id='firstname']").sendKeys("test");
