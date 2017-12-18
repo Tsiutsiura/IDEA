@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class GeneralMethods extends Assert {
 
    /* private int indicatorBrowser = 0;
@@ -12,22 +14,21 @@ public class GeneralMethods extends Assert {
     WebDriver driver;
 
     public GeneralMethods(int browser) {
-        this.indicatorBrowser = browser;
+        this.indicatorBrowser = browser;,
 
         if(indicatorBrowser == 0) {
-            driver = new FirefoxDriver();
+            this.driver = new FirefoxDriver();
         } else if (indicatorBrowser == 1) {
-            driver = new ChromeDriver();
+            this.driver = new ChromeDriver();
         } else {
             System.out.println("browser don`t check");
         }
-    }
-
-    public GeneralMethods() {
     }*/
 
-    WebDriver driver = new FirefoxDriver();
+    public GeneralMethods() {
+    }
 
+    static WebDriver driver = new FirefoxDriver();
 
     public void openSite(String s) {
         driver.get(s);
@@ -40,11 +41,16 @@ public class GeneralMethods extends Assert {
     }
 
     public void sleep(int time) {
+        //явное ожидание
         try {
             Thread.sleep(time);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        //неявное ожидание
+       /* driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);*/
+
     }
 
 

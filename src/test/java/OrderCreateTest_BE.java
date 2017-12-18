@@ -1,3 +1,4 @@
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
@@ -9,17 +10,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class OrderCreateTest_BE extends GeneralMethods {
 
-    //GeneralMethods generalMethods = new GeneralMethods(0);
+    /*GeneralMethods generalMethods = new GeneralMethods(0);*/
+    static Actions actions;
+
+    @BeforeClass
+    public static void init() {
+        actions = new Actions(driver);
+    }
 
     @Test
     public void createOrder() throws InterruptedException {
-
         //Открытие сайта
         openSite("https://www.bestessays.com/");
 
-        Actions actions = new Actions(driver);
-
         sleep(5000);
+
         //Ожидание поп-апа и его закрытие
         FluentWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@id='bio_ep_close']")));
@@ -29,6 +34,7 @@ public class OrderCreateTest_BE extends GeneralMethods {
 
         actions.moveToElement(finder("//div[@class='Procced  bottomPreOrder clearfix']")).click().perform();
         sleep(5000);
+
         finder("//input[@id='firstname']").sendKeys("test");
         finder("//input[@id='lastname']").sendKeys("test");
         finder("//input[@id='email']").sendKeys("tsiutsiura.test1@gmail.com");
@@ -51,7 +57,6 @@ public class OrderCreateTest_BE extends GeneralMethods {
         String totalOF = finder("//div[@id='price-total-bl']//div [@class ='prices-num-block']").getText();
         System.out.println("Total on OF = " + totalOF);
 
-
         //Переход на Preview и работа с ней
         actions.moveToElement(finder("//input[@id='submit_order_form']")).click().perform();
 
@@ -64,7 +69,7 @@ public class OrderCreateTest_BE extends GeneralMethods {
         System.out.println("Total on OF = " + totalPreview);
 
         //Проверка совпадения тотала на ОФ и превью
-        assertEquals (totalPreview, totalOF);
+        assertEquals(totalPreview, totalOF);
 
         //Переход к оплате
         sleep(10000);
@@ -100,12 +105,9 @@ public class OrderCreateTest_BE extends GeneralMethods {
         //Thank you page
         System.out.println(driver.getCurrentUrl());
         String orderNumber = finder("//div [@class ='order-summary']").getText();
-        System.out.println( orderNumber );
-
-
+        System.out.println(orderNumber);
         sleep(10000);
         driver.quit();
-
     }
 
 
