@@ -2,19 +2,16 @@ package TestOnBE;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 
-public class OrderCreateTest_BE extends GeneralMethods {
+public class TestOrderCreate_Positive extends GeneralMethods {
 
     /*TestOnBE.GeneralMethods generalMethods = new TestOnBE.GeneralMethods(0);*/
 
-
-    @BeforeClass
-    public static void init() {
-    }
-
     @Test
-    public void createOrder() throws InterruptedException {
+    public void testCreateOrder() throws InterruptedException {
         openSite("https://www.bestessays.com/");
         sleep(5000);
 
@@ -45,8 +42,11 @@ public class OrderCreateTest_BE extends GeneralMethods {
         //Thank you page
         workWithThankYouPage();
 
-        GeneralMethods.driver.quit();
+        driver.close();
     }
+
+
+
 
 
 }

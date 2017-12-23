@@ -27,7 +27,12 @@
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
         </dependency>
-         <!--https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver-->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <!--https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver-->
 <!--        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>

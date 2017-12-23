@@ -90,11 +90,16 @@ public class GeneralMethods extends Assert {
         String totalOF = finder("//div[@id='price-total-bl']//div [@class ='prices-num-block']").getText();
         System.out.println("Total on OF = " + totalOF);
 
-        WebElement buttonSubmit = finder("//input[@id='submit_order_form']");
-        actions.moveToElement(buttonSubmit).click().perform();
+        submitOF();
 
         sleep(5000);
         return totalOF;
+    }
+
+    public void submitOF() {
+        WebElement buttonSubmit = finder("//input[@id='submit_order_form']");
+        actions.moveToElement(buttonSubmit).click().perform();
+        sleep(5000);
     }
 
     public String workWithPreview() {
