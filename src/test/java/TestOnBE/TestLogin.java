@@ -1,5 +1,8 @@
 package TestOnBE;
 
+import Pages.HomePage;
+import Pages.LoginBlock;
+import Pages.LoginPage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -24,12 +27,12 @@ public  class TestLogin extends GeneralMethods {
     public static Collection testData() {
         return Arrays.asList(
                 new Object[][]{
-                        {"tsiutsiura.test@gmail.com", "keyfnbr123"},
+                        {"tsiutsiura.test@gmail.com", "keyfnbr123"}/*,
                         {"tsiutsiura", "keyfnbr"},
                         {"tsiutsiura1115@gmail.com", "keyfnbr"},
-                        {" ", "keyfnbr"},
+                        {"   ", "keyfnbr"},
                         {"tsiutsiura1115@gmail.com", " "},
-                        {"tsiutsiura.test@gmail.com", "keyfnbr"}
+                        {"tsiutsiura.test@gmail.com", "keyfnbr"}*/
                 }
         );
     }
@@ -45,12 +48,33 @@ public  class TestLogin extends GeneralMethods {
         openSite("https://www.bestessays.com/");
 
         //Enter Login page
-        driver.findElement(By.linkText("Login")).click();
+
+        HomePage homePage = new HomePage(driver);
+        homePage.submitLoginBlock();
+        sleep(5000);
+
+        LoginBlock loginBlock = new LoginBlock(driver);
+        loginBlock.submitLoginBlock();
+        sleep(5000);
+
+
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.checkIsItLoginPage("Login")
+                .typeLogin(email)
+                .typePassword(password)
+                .submitLoginPage();
+
+
+        sleep(5000);
+
+
+        /*driver.findElement(By.linkText("Login")).click();
         sleep(5000);
         finder("//input[@id = 'login_email']");
         finder("//input[@id = 'pass']");
         finder("//button[@type = 'submit']").click();
         sleep(5000);
+
         assertEquals("Login", finder("//div[@class = 'title_text']").getText());
 
         //Fill the form on login page
@@ -62,21 +86,13 @@ public  class TestLogin extends GeneralMethods {
         passwordLogin.clear();
         passwordLogin.sendKeys(password);
 
-        actions.moveToElement(finder("//form//input[@id = 'submit']")).click().perform();
+        actions.moveToElement(finder("//form//input[@id = 'submit']")).click().perform();*/
         sleep(5000);
 
-        try {
 
-        assertEquals("https://www.bestessays.com/customer/orders/", driver.getCurrentUrl().toString());
-
-        } catch (Exception e) {
-            //Capture and append Exceptions/Errors
-            verificationErrors.append(e.toString());
-
-            System.err.println("Assertion Fail "+ verificationErrors.
-                    toString());
-        }
+        assertEquals("This is login page" ,"https://www.bestessays.com/customer/orders/", driver.getCurrentUrl().toString());
     }
+
 
     @AfterTest
     public void tearDown() {

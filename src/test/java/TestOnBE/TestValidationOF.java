@@ -1,5 +1,6 @@
 package TestOnBE;
 
+import Pages.OrderForm;
 import org.junit.Test;
 
 public class TestValidationOF extends GeneralMethods {
@@ -8,9 +9,11 @@ public class TestValidationOF extends GeneralMethods {
         openSite("https://www.bestessays.com/order/");
         sleep(5000);
 
-        actions.moveToElement(finder("//select[@id = 'country']")).moveToElement(finder("//select[@id = 'country']//option[@value]")).click().perform();
+        new OrderForm(driver).typeFieldCountry().submitOrderForm();
+        sleep(5000);
+        /*actions.moveToElement(finder("//select[@id = 'country']")).moveToElement(finder("//select[@id = 'country']//option[@value]")).click().perform();
         submitOF();
-
+*/
         assertEquals("Enter your first name", finder("//div[@id = 'error_firstname']").getText());
         assertEquals("Enter your last name", finder("//div[@id = 'error_lastname']").getText());
         assertEquals("Enter valid email address", finder("//div[@id = 'error_email']").getText());

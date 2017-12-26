@@ -35,7 +35,7 @@ public class GeneralMethods extends Assert {
     }
 
     static WebDriver driver = new FirefoxDriver();
-    static Actions actions = new Actions(GeneralMethods.driver);;
+    static Actions actions = new Actions(GeneralMethods.driver);
 
     public void openSite(String s) {
         driver.get(s);
@@ -60,7 +60,7 @@ public class GeneralMethods extends Assert {
         finder("//span[@id='bio_ep_close']").click();
     }
 
-    public String workWithOF() {
+    /*public String workWithOF() {
         WebElement fieldFirstName = finder("//input[@id='firstname']");
         WebElement fieldLastName = finder("//input[@id='lastname']");
         WebElement fieldEmail = finder("//input[@id='email']");
@@ -101,7 +101,7 @@ public class GeneralMethods extends Assert {
         actions.moveToElement(buttonSubmit).click().perform();
         sleep(5000);
     }
-
+*/
     public String workWithPreview() {
         String cppPreview = finder("//div[@id = 'price-per-page-bl']//div [@class ='prices-num-block']").getText();
         System.out.println("CPP = " + cppPreview);

@@ -1,9 +1,8 @@
 package TestOnBE;
 
-import org.junit.BeforeClass;
+import Pages.HomePage;
+import Pages.OrderForm;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 
 public class TestOrderCreate_Positive extends GeneralMethods {
@@ -19,10 +18,31 @@ public class TestOrderCreate_Positive extends GeneralMethods {
         //workWithPopUp();
 
         //Переход на ОФ и ее заполнение
-        actions.moveToElement(finder("//div[@class='Procced  bottomPreOrder clearfix']")).click().perform();
+        HomePage homePage = new HomePage(driver);
+        homePage.submiCalculator();
         sleep(5000);
 
-        String totalOF = workWithOF();
+        OrderForm orderForm = new OrderForm(driver);
+        orderForm.typeFieldFirstName("test")
+                .typeFieldLastName("test")
+                .typeFieldEmail("tsiutsiura.test1@gmail.com")
+                .typeFieldMobilePhone("44123456789")
+                .typeFieldTopic("test order")
+                .typeDoctype()
+                .typeUrgency()
+                .typeNumberOfPages()
+                .typeOrderCategory()
+                .typeOrderDescription("test order ");
+        orderForm.cppOrderForm();
+        orderForm.totalOrderForm();
+        System.out.println("CPP = " + orderForm.cppOF + ", Total on OF = " + orderForm.totalOF);
+
+        orderForm.submitOrderForm ();
+
+        //Переход на ОФ и ее заполнение
+        /*actions.moveToElement(finder("//div[@class='Procced  bottomPreOrder clearfix']")).click().perform();*/
+
+        /*String totalOF = workWithOF();
 
         //Переход на Preview и работа с ней
         String totalPreview = workWithPreview();
@@ -40,9 +60,9 @@ public class TestOrderCreate_Positive extends GeneralMethods {
         //assertEquals(totalOF, totalPayment);
 
         //Thank you page
-        workWithThankYouPage();
+        workWithThankYouPage();*/
 
-        driver.close();
+
     }
 
 
