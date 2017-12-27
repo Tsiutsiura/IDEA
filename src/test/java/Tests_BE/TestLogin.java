@@ -1,4 +1,4 @@
-package TestOnBE;
+package Tests_BE;
 
 import Pages.HomePage;
 import Pages.LoginBlock;
@@ -6,10 +6,8 @@ import Pages.LoginPage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import org.openqa.selenium.By;
 import org.junit.runners.Parameterized.Parameters;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterTest;
 
 import java.util.Arrays;
@@ -23,16 +21,17 @@ public  class TestLogin extends GeneralMethods {
     private String password;
 
     private static StringBuffer verificationErrors = new StringBuffer();
+
     @Parameters
     public static Collection testData() {
         return Arrays.asList(
                 new Object[][]{
-                        {"tsiutsiura.test@gmail.com", "keyfnbr123"}/*,
+                        {"tsiutsiura.test@gmail.com", "keyfnbr123"},
                         {"tsiutsiura", "keyfnbr"},
                         {"tsiutsiura1115@gmail.com", "keyfnbr"},
                         {"   ", "keyfnbr"},
                         {"tsiutsiura1115@gmail.com", " "},
-                        {"tsiutsiura.test@gmail.com", "keyfnbr"}*/
+                        {"tsiutsiura.test@gmail.com", "keyfnbr"}
                 }
         );
     }
@@ -64,31 +63,7 @@ public  class TestLogin extends GeneralMethods {
                 .typePassword(password)
                 .submitLoginPage();
 
-
         sleep(5000);
-
-
-        /*driver.findElement(By.linkText("Login")).click();
-        sleep(5000);
-        finder("//input[@id = 'login_email']");
-        finder("//input[@id = 'pass']");
-        finder("//button[@type = 'submit']").click();
-        sleep(5000);
-
-        assertEquals("Login", finder("//div[@class = 'title_text']").getText());
-
-        //Fill the form on login page
-        WebElement emailLogin = finder("//li//input[@name = 'email']");
-        emailLogin.clear();
-        emailLogin.sendKeys(email);
-
-        WebElement passwordLogin = finder("//li//input[@name = 'pass']");
-        passwordLogin.clear();
-        passwordLogin.sendKeys(password);
-
-        actions.moveToElement(finder("//form//input[@id = 'submit']")).click().perform();*/
-        sleep(5000);
-
 
         assertEquals("This is login page" ,"https://www.bestessays.com/customer/orders/", driver.getCurrentUrl().toString());
     }

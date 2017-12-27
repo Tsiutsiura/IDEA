@@ -1,4 +1,4 @@
-package TestOnBE;
+package Tests_BE;
 
 import Pages.OrderForm;
 import org.junit.Test;

@@ -20,17 +20,24 @@ public class OrderForm {
     private By buttonSubmitLocator = By.xpath("//input[@id='submit_order_form']");
     private By cppLocator = By.xpath("//div[@id = 'price-per-page-bl']//div [@class ='prices-num-block']");
     private By totalLocator = By.xpath("//div[@id='price-total-bl']//div [@class ='prices-num-block']");
-    public static String cppOF;
-    public static String totalOF;
+    private  String cppOF;
+    private  String totalOF;
 
     private WebDriver driver;
     private Actions actions ;
 
     public OrderForm(WebDriver driver) {
-
         this.driver = driver;
         actions = new Actions(driver);
     }
+
+    public String getCppOF() {
+        return cppOF;
+    }
+    public String getTotalOF() {
+        return totalOF;
+    }
+
     public OrderForm typeFieldFirstName(String firstName) {
         driver.findElement(fieldFirstNameLocator).sendKeys(firstName);
         return this;
@@ -56,23 +63,24 @@ public class OrderForm {
         driver.findElement(fieldTopicLocator).sendKeys(topic);
         return this;
     }
-    public OrderForm typeDoctype() {
-        actions.moveToElement(driver.findElement(fieldDoctypeLocator)).moveToElement(driver.findElement(By.xpath("//select[@id='doctype']//option[@value='13']"))).click().build().perform();
+    public OrderForm typeDoctype(String  value) {
+        actions.moveToElement(driver.findElement(fieldDoctypeLocator))
+                .moveToElement(driver.findElement(By.xpath("//select[@id='doctype']//option[@value='"+value+"']"))).click().build().perform();
         return this;
     }
-    public OrderForm typeUrgency() {
+    public OrderForm typeUrgency(String value) {
         actions.moveToElement(driver.findElement(fieldUrgencyLocator))
-                .moveToElement(driver.findElement(By.xpath("//select[@id='urgency']//option[@value='5']"))).click().perform();
+                .moveToElement(driver.findElement(By.xpath("//select[@id='urgency']//option[@value='"+value+"']"))).click().perform();
         return this;
     }
-    public OrderForm typeNumberOfPages() {
+    public OrderForm typeNumberOfPages(String value) {
         actions.moveToElement(driver.findElement(fieldNumPagesLocator))
-                .moveToElement(driver.findElement(By.xpath("//select[@id='numpages']//option[@value='3']"))).click().perform();
+                .moveToElement(driver.findElement(By.xpath("//select[@id='numpages']//option[@value='"+value+"']"))).click().perform();
         return this;
     }
-    public OrderForm typeOrderCategory() {
+    public OrderForm typeOrderCategory(String value) {
         actions.moveToElement(driver.findElement(fieldOrderCategoryLocator))
-                .moveToElement(driver.findElement(By.xpath("//select[@id='order_category']//option[@value='13']"))).click().perform();
+                .moveToElement(driver.findElement(By.xpath("//select[@id='order_category']//option[@value='"+value+"']"))).click().perform();
         return this;
     }
     public OrderForm typeOrderDescription(String orderDescription) {
@@ -83,15 +91,15 @@ public class OrderForm {
         actions.moveToElement(driver.findElement(buttonSubmitLocator)).click().perform();
         return this;
     }
-    public String cppOrderForm() {
-         driver.findElement(cppLocator).getText();
-        System.out.println("Total on OF = " + cppOF);
-        return cppOF;
+    public OrderForm cppOrderForm() {
+        cppOF = driver.findElement(cppLocator).getText();
+        System.out.println("CPP on OF = " + cppOF);
+        return this;
     }
-    public String totalOrderForm() {
-        driver.findElement(totalLocator).getText();
+    public OrderForm totalOrderForm() {
+        totalOF = driver.findElement(totalLocator).getText();
         System.out.println("Total on OF = " + totalOF);
-        return totalOF;
+        return this;
     }
 
 }
