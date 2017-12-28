@@ -1,10 +1,11 @@
 package Pages;
 
+import Tests_BE.GeneralMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class OrderForm {
+public class OrderForm extends GeneralMethods {
 
     private By fieldFirstNameLocator = By.xpath("//input[@id='firstname']");
     private By fieldLastNameLocator = By.xpath("//input[@id='lastname']");
@@ -66,6 +67,7 @@ public class OrderForm {
     public OrderForm typeDoctype(String  value) {
         actions.moveToElement(driver.findElement(fieldDoctypeLocator))
                 .moveToElement(driver.findElement(By.xpath("//select[@id='doctype']//option[@value='"+value+"']"))).click().build().perform();
+        sleep(5000);
         return this;
     }
     public OrderForm typeUrgency(String value) {

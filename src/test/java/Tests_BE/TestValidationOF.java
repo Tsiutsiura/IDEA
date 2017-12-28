@@ -4,6 +4,7 @@ import Pages.OrderForm;
 import org.junit.Test;
 
 public class TestValidationOF extends GeneralMethods {
+
     @Test
     public void testValidationOF() throws InterruptedException {
         openSite("https://www.bestessays.com/order/");

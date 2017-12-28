@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ThankYouPage {
 
     private By orderSummaryLocator = By.xpath("//div [@class ='order-summary']");
+    By customerProfileButtonLocator = By.linkText("My profile");
     private String orderSummary;
 
     private WebDriver driver;
@@ -26,6 +27,11 @@ public class ThankYouPage {
         orderSummary = driver.findElement(orderSummaryLocator).getText();
         System.out.println(orderSummary);
         return this;
+    }
+
+    public HomePage goToCustomerProfile() {
+        driver.findElement(customerProfileButtonLocator).click();
+        return new HomePage(driver);
     }
 
 }
