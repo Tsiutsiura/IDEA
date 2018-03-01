@@ -72,7 +72,7 @@ public  class TestLogin extends GeneralMethods {
     @AfterTest
     public void tearDown() {
         //Close the browser
-        driver.quit();
+        driver.close();
         String verificationErrorString = verificationErrors.toString();
 
         if (!"".equals(verificationErrorString)) {

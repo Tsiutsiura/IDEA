@@ -4,9 +4,11 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GeneralMethods extends Assert {
@@ -14,7 +16,10 @@ public class GeneralMethods extends Assert {
     public GeneralMethods() {
     }
 
-    static WebDriver driver = new FirefoxDriver();
+    //static WebDriver driver = new FirefoxDriver();
+    static WebDriver driver = new ChromeDriver();
+
+    WebDriverWait wait = new WebDriverWait(driver, 25);
 
 
     public void openSite(String s) {

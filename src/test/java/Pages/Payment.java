@@ -3,11 +3,13 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 public class Payment {
 
     private By totalLocator = By.xpath("//td[@id='order_total']//div [@class ='order_total__sum']");
     private By numberCardLocator = By.xpath("//input[@id = 'cc_number']");
+
     private By monthFieldLocator = By.xpath("//select[@id = 'exp_month']");
     private By yearFieldLocator = By.xpath("//select[@id = 'exp_year']");
     private By cvvFieldLocator = By.xpath("//input[@id = 'cvv2']");
@@ -23,6 +25,7 @@ public class Payment {
 
     private WebDriver driver;
     private Actions actions ;
+    private Select select;
 
     public Payment(WebDriver driver) {
         this.driver = driver;
@@ -38,13 +41,19 @@ public class Payment {
         return this;
     }
     public Payment typeMonthField() {
-        actions.moveToElement(driver.findElement(monthFieldLocator))
-                .moveToElement(driver.findElement(By.xpath("//select[@id = 'exp_month']//option[@value='1']"))).click().perform();
+        select= new Select(driver.findElement(monthFieldLocator));
+        select.selectByValue("1");
+
+        /*actions.moveToElement(driver.findElement(monthFieldLocator))
+                .moveToElement(driver.findElement(By.xpath("//select[@id = 'exp_month']//option[@value='1']"))).click().perform();*/
         return this;
     }
     public Payment typeYearField() {
-        actions.moveToElement(driver.findElement(yearFieldLocator))
-                .moveToElement(driver.findElement(By.xpath("//select[@id = 'exp_year']//option[@value='19']"))).click().perform();
+        select=new Select(driver.findElement(yearFieldLocator));
+        select.selectByValue("19");
+
+        /*actions.moveToElement(driver.findElement(yearFieldLocator))
+                .moveToElement(driver.findElement(By.xpath("//select[@id = 'exp_year']//option[@value='19']"))).click().perform();*/
         return this;
     }
     public Payment typeCvvField() {
@@ -68,8 +77,11 @@ public class Payment {
         return this;
     }
     public Payment typeCountryField() {
-        actions.moveToElement(driver.findElement(countryFieldLocator))
-                .moveToElement(driver.findElement(By.xpath("//select[@id = 'country']//option[@value='US']"))).click().perform();
+        select = new Select(driver.findElement(countryFieldLocator));
+        select.selectByValue("US");
+
+        /*actions.moveToElement(driver.findElement(countryFieldLocator))
+                .moveToElement(driver.findElement(By.xpath("//select[@id = 'country']//option[@value='US']"))).click().perform();*/
         return this;
     }
     public Payment typeZipField() {
