@@ -5,15 +5,19 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
 
-    By loginButtonLocator = By.linkText("Login");
-    By calculatorSubmitButtonLocator = By.xpath("//div[@class='Procced  bottomPreOrder clearfix']");
-    By orderButtonLocator = By.linkText("Order");
+    By loginButtonLocator = By.linkText("LOG IN");
+    By calculatorSubmitButtonLocator = By.xpath("//a[@class='price-calc__btn']");
+    By orderButtonLocator = By.linkText("Order Now");
 
 
     private final WebDriver driver;
 
     public HomePage (WebDriver driver) {
         this.driver = driver;
+    }
+
+    public By getOrderButtonLocator() {
+        return orderButtonLocator;
     }
 
     public HomePage submitLoginBlock() {

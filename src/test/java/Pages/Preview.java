@@ -7,9 +7,9 @@ import org.openqa.selenium.interactions.Actions;
 
 
 public class Preview {
-    private By buttonSubmitLocator = By.xpath("//div[@class ='button-block-submit']//input[@class='edit_order_proceed']");
-    private By cppLocator = By.xpath("//div[@id = 'price-per-page-bl']//div [@class ='prices-num-block']");
-    private By totalLocator = By.xpath("//div[@id='price-total-bl']//div [@class ='prices-num-block']");
+    private By buttonSubmitLocator = By.xpath("//input[@name='submit']");
+    private By cppLocator = By.xpath("//span[@id = 'value_cost_per_page']");
+    private By totalLocator = By.xpath("//span[@id='value_total']");
     private String cppPreview;
     private String totalPreview;
 
@@ -19,6 +19,10 @@ public class Preview {
     public Preview(WebDriver driver) {
         this.driver = driver;
         actions = new Actions(driver);
+    }
+
+    public By getButtonSubmitLocator() {
+        return buttonSubmitLocator;
     }
 
     public String getCppPreview() {
