@@ -55,5 +55,35 @@
     <orderEntry type="library" name="Maven: org.testng:testng:6.14.2" level="project" />
     <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
     <orderEntry type="library" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/mysql-connector-java-5.1.45.zip!/mysql-connector-java-5.1.45/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/mysql-connector-java-5.1.45" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/mysql-connector-java-5.1.45/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/mysql-connector-java-5.1.45" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

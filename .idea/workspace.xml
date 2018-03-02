@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="Payment form filling and transit to Thank you page">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chromedriver.exe" />
-    </list>
-    <list id="bf9488fc-b1ac-4951-a15e-0730a9eb07e5" name="Rejected commit: Default" comment="Payment form filling and transit to Thank you page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/IDEA.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IDEA.iml" afterPath="$PROJECT_DIR$/.idea/IDEA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/Payment.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/Payment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java" afterPath="$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java" afterPath="$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" afterPath="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests_BE/TestValidationOF.java" afterPath="$PROJECT_DIR$/src/test/java/Tests_BE/TestValidationOF.java" />
     </list>
     <list id="7d67a110-57ec-4fca-ab85-4a720920460b" name="Rejected commit: Default (2)" comment="Payment form filling and transit to Thank you page">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/test.java" />
@@ -36,14 +24,10 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" ignored="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
-    <file path="$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java" ignored="true" />
-    <file path="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/test.java" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/Pages/Preview.java" ignored="false" />
-    <file path="$PROJECT_DIR$/src/test/java/Pages/Payment.java" ignored="false" />
+    <file path="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +50,13 @@
             <state relative-caret-position="272">
               <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1687#1688#0" expanded="false" />
+                <element signature="e#1729#1730#0" expanded="false" />
+                <element signature="e#1879#1880#0" expanded="false" />
+                <element signature="e#1907#1908#0" expanded="false" />
+                <element signature="e#1940#1941#0" expanded="false" />
+                <element signature="e#1970#1971#0" expanded="false" />
                 <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
                 <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
                 <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -80,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestOrderCreate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestOrderCreate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="357">
               <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
               <folding />
             </state>
@@ -93,9 +84,13 @@
       <file leaf-file-name="ThankYouPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ThankYouPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="374">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#563#564#0" expanded="false" />
+                <element signature="e#598#599#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +100,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#660#661#0" expanded="false" />
+                <element signature="e#702#703#0" expanded="false" />
+                <element signature="e#739#740#0" expanded="false" />
+                <element signature="e#772#773#0" expanded="false" />
+                <element signature="e#810#811#0" expanded="false" />
+                <element signature="e#845#846#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,10 +116,13 @@
       <file leaf-file-name="Payment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="391">
               <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#Payment#0;class#Payment#0" expanded="false" />
+                <element signature="e#1475#1476#0" expanded="false" />
+                <element signature="e#1510#1511#0" expanded="false" />
                 <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
                 <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
                 <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
@@ -135,10 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectToDB.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConnectToDB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="263">
               <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
               <folding />
             </state>
@@ -182,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestValidationOF.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/test.java" />
@@ -190,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Preview.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
       </list>
     </option>
   </component>
@@ -209,10 +215,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2025" />
+    <option name="y" value="220" />
+    <option name="width" value="1168" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -239,8 +245,76 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
-        <subPane subId="Project Files" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="IDEA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="IDEA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="IDEA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DB">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="IDEA">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -363,15 +437,12 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chromedriver_win32" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-java-5.1.45" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3824885" />
@@ -404,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestOrderCreate.testCreateOrder">
+  <component name="RunManager" selected="Application.ConnectToDB">
     <configuration default="false" name="TestValidationOF.testValidationOF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -807,9 +878,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
-        <item index="1" class="java.lang.String" itemvalue="Application.test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ConnectToDB" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConnectToDB" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testData" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestValidationOF.testValidationOF" />
       </list>
@@ -869,7 +940,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513094432163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Payment form filling and transit to Thank you page">
+      <created>1519904931125</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519904931125</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -905,22 +983,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2025" y="220" width="1168" height="739" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30528054" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3172043" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28494623" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38353196" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41914192" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25479743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28610107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -989,7 +1067,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="42" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -998,11 +1084,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#Payment#0;class#Payment#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
+            <element signature="e#1510#1511#0" expanded="false" />
+            <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCvvField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeFirstNameField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeLastNameField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeAddressField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCityField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCountryField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeZipField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typePhoneField#0;class#Payment#0" expanded="false" />
+            <element signature="method#submitPayment#0;class#Payment#0" expanded="false" />
+            <element signature="method#totalPayment#0;class#Payment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1045,6 +1188,13 @@
         <state relative-caret-position="816">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1087,6 +1237,13 @@
         <state relative-caret-position="476">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1148,6 +1305,13 @@
         <state relative-caret-position="153">
           <caret line="15" column="71" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1195,6 +1359,13 @@
         <state relative-caret-position="153">
           <caret line="15" column="71" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1242,6 +1413,13 @@
         <state relative-caret-position="153">
           <caret line="15" column="71" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1260,6 +1438,13 @@
         <state relative-caret-position="153">
           <caret line="15" column="71" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1300,6 +1485,13 @@
         <state relative-caret-position="153">
           <caret line="15" column="71" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1340,6 +1532,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1390,21 +1589,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#494#495#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1419,10 +1610,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="391">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#Payment#0;class#Payment#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
+            <element signature="e#1510#1511#0" expanded="false" />
             <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
             <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
             <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
@@ -1445,6 +1639,13 @@
         <state relative-caret-position="272">
           <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1879#1880#0" expanded="false" />
+            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1462,22 +1663,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#810#811#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ThankYouPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="374">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+            <element signature="e#598#599#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="357">
           <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1515,7 +1736,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3824885" />
               </list>
             </option>
           </splitter-proportions>
@@ -1527,7 +1748,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3824885" />
               </list>
             </option>
           </splitter-proportions>
