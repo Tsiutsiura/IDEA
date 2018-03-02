@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="Payment form filling and transit to Thank you page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chromedriver.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IDEA.iml" afterPath="$PROJECT_DIR$/.idea/IDEA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="7d67a110-57ec-4fca-ab85-4a720920460b" name="Rejected commit: Default (2)" comment="Payment form filling and transit to Thank you page">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pages/Preview.java" afterPath="$PROJECT_DIR$/src/test/java/Pages/Preview.java" />
-    </list>
-    <list id="3d4c5557-c8ee-47a5-962f-c51d88dc4cf3" name="Rejected commit: Default (3)" comment="Payment form filling and transit to Thank you page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
     </list>
     <list id="8226e5c1-6128-46d5-a9be-d7beb0db6a7b" name="Rejected commit: Default (4)" comment="Payment form filling and transit to Thank you page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
@@ -27,7 +20,6 @@
     <file path="$PROJECT_DIR$/src/main/java/test.java" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" ignored="false" />
     <file path="$PROJECT_DIR$/src/test/java/Pages/Preview.java" ignored="false" />
-    <file path="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,8 +136,8 @@
       <file leaf-file-name="ConnectToDB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="229">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -947,7 +939,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519904931125</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Payment form filling and transit to Thank you page">
+      <created>1520004439065</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520004439067</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Payment form filling and transit to Thank you page">
+      <created>1520004512895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520004512895</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1697,8 +1703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="229">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
