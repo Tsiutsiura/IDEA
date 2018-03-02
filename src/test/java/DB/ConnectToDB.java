@@ -7,7 +7,8 @@ import java.sql.*;
  */
 public class ConnectToDB {
     // JDBC URL, username and password of MySQL server
-    private static final String url = "jdbc:mysql://localhost:3306/paysecur_essaycontrol";
+    //private static final String url = "jdbc:mysql://localhost:3306/paysecur_essaycontrol";
+    private static final String url = "jdbc:mysql://localhost:db.uncomp.com.test/paysecur_essaycontrol";
     private static final String user = "tester";
     private static final String password = "Ux6ZmbF8fnv6sLxT";
 
