@@ -67,7 +67,7 @@ public class TestOrderCreate extends GeneralMethods {
         orderForm.typeFieldFirstName("test");
         orderForm.typeFieldLastName("test");
         orderForm.typeFieldEmail("tsiutsiura.test1@gmail.com");
-        orderForm.typeFieldRetypeEmail ("tsiutsiura.test1@gmail.com");
+        orderForm.typeFieldRetypeEmail("tsiutsiura.test1@gmail.com");
         orderForm.typeFieldCountry("192");
         orderForm.typeFieldMobilePhone("3213121312345");
         orderForm.typeFieldTopic("test order");
@@ -77,16 +77,16 @@ public class TestOrderCreate extends GeneralMethods {
         orderForm.typeOrderDescription("test order ");
         orderForm.cppOrderForm();
         orderForm.totalOrderForm();
-        orderForm.submitOrderForm();
+        Preview preview = orderForm.submitOrderForm();
 
-      Preview preview = new Preview(driver);
+        //Preview preview = new Preview(driver);
 
         sleep(5000);
-       // wait.until(((JavascriptExecutor)driver).executeScript());
+        // wait.until(((JavascriptExecutor)driver).executeScript());
 
         preview.cppOrderForm();
         preview.totalOrderForm();
-        preview.submitOrderForm();
+        Payment payment = preview.submitOrderForm();
 
         //sleep(5000);
 
@@ -94,8 +94,8 @@ public class TestOrderCreate extends GeneralMethods {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class = 'billing__h']")));
         assertEquals("Different totals on OF and Preview", orderForm.getTotalOF(), preview.getTotalPreview());
 
-        Payment payment = new Payment(driver);
-       payment.typeNumberCardField();
+        //Payment payment = new Payment(driver);
+        payment.typeNumberCardField();
         payment.typeMonthField();
         payment.typeYearField();
         payment.typeCvvField();
@@ -107,13 +107,13 @@ public class TestOrderCreate extends GeneralMethods {
         payment.typeZipField();
         payment.typePhoneField();
         payment.totalPayment().getTotalPayment();
-        payment.submitPayment();
+        ThankYouPage thankYouPage =  payment.submitPayment();
         sleep(20000);
 
-/*
-        ThankYouPage thankYouPage = new ThankYouPage(driver);
+
+        //ThankYouPage thankYouPage = new ThankYouPage(driver);
         thankYouPage.viewOrderSummary().getOrderSummary();
-        thankYouPage.goToCustomerProfile();
+/*        thankYouPage.goToCustomerProfile();
         sleep(5000);
 
         Dashboard dashboard = new Dashboard(driver);

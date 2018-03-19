@@ -124,13 +124,13 @@ public class OrderForm extends GeneralMethods {
         driver.findElement(fieldOrderDescriptionLocator).sendKeys(orderDescription);
         return this;
     }
-    public OrderForm submitOrderForm() throws InterruptedException {
+    public Preview submitOrderForm() throws InterruptedException {
         driver.findElement(buttonSubmitLocator).click();
         /*actions.moveToElement(driver.findElement(buttonSubmitLocator)).click().perform();*/
 
         //wait.until(ExpectedConditions.urlMatches("https://www.bestessays.com/order/preview/"));
 
-        return this;
+        return  new Preview(driver);
     }
     public OrderForm cppOrderForm() {
         cppOF = driver.findElement(cppLocator).getText();

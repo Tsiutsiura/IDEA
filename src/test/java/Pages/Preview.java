@@ -32,9 +32,9 @@ public class Preview {
         return totalPreview;
     }
 
-    public Preview submitOrderForm() {
+    public Payment submitOrderForm() {
         actions.moveToElement(driver.findElement(buttonSubmitLocator)).click().perform();
-        return this;
+        return new Payment(driver);
     }
     public Preview cppOrderForm() {
         cppPreview = driver.findElement(cppLocator).getText();

@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ThankYouPage {
 
-    private By orderSummaryLocator = By.xpath("//div [@class ='order-summary']");
+    private By orderSummaryLocator = By.xpath("//div [@class ='order_details']");
     By customerProfileButtonLocator = By.linkText("My profile");
     private String orderSummary;
 

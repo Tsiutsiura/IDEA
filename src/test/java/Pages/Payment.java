@@ -92,9 +92,9 @@ public class Payment {
         driver.findElement(phoneFieldLocator).sendKeys("123456789");
         return this;
     }
-    public Payment submitPayment() {
+    public ThankYouPage submitPayment() {
         actions.moveToElement(driver.findElement(submitButtonLocator)).click().perform();
-        return this;
+        return new ThankYouPage(driver);
     }
     public Payment totalPayment() {
         totalPayment = driver.findElement(totalLocator).getText();

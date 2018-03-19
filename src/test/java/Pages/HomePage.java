@@ -5,9 +5,11 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
 
-    By loginButtonLocator = By.linkText("LOG IN");
-    By calculatorSubmitButtonLocator = By.xpath("//a[@class='price-calc__btn']");
-    By orderButtonLocator = By.linkText("Order Now");
+   private By loginButtonLocator = By.linkText("LOG IN");
+   private By calculatorSubmitButtonLocator = By.xpath("//a[@class='price-calc__btn']");
+   private By orderButtonLocator = By.linkText("Order Now");
+  // private By pricesButtonLocator = By.linkText("Prices");
+   private By pricesButtonLocator = By.xpath("//li[@class ='top_menu__item top_menu__link_prices']");
 
 
     private final WebDriver driver;
@@ -20,6 +22,10 @@ public class HomePage {
         return orderButtonLocator;
     }
 
+    public By getPricesButtonLocator() {
+        return pricesButtonLocator;
+    }
+
     public HomePage submitLoginBlock() {
         driver.findElement(loginButtonLocator).click();
         return new HomePage(driver);
@@ -29,11 +35,14 @@ public class HomePage {
         driver.findElement(calculatorSubmitButtonLocator).click();
         return new HomePage(driver);
     }
-    public HomePage goToOrderForm() {
+    public OrderForm goToOrderForm() {
         driver.findElement(orderButtonLocator).click();
-        return new HomePage(driver);
+        return new OrderForm(driver);
     }
-
+    public Prices goToPricesTable() {
+        driver.findElement(pricesButtonLocator).click();
+        return new Prices(driver);
+    }
 
 
 }
