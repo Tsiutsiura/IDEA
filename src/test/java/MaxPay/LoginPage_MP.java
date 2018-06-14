@@ -27,6 +27,7 @@ public class LoginPage_MP {
         return this;
     }
     public LoginPage_MP typePassword(String password) {
+        driver.findElement(passwordLocator).click();
         driver.findElement(passwordLocator).sendKeys(password);
         return this;
     }
