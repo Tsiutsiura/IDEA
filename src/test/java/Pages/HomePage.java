@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class HomePage {
 
-   private By loginButtonLocator = By.linkText("LOG IN");
+   private By loginButtonLocator = By.linkText("Login");
    private By calculatorSubmitButtonLocator = By.xpath("//a[@class='price-calc__btn']");
    private By orderButtonLocator = By.linkText("Order Now");
   // private By pricesButtonLocator = By.linkText("Prices");

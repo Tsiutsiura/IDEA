@@ -28,11 +28,11 @@ public class TestPrices extends GeneralMethods {
     public static Collection testData() {
         return Arrays.asList(
                 new Object[][]{
-                        {"13", "16", "15" },  //Term Paper
-                        {"143", "18", "17" },    // Admission Services - Scholarship Essay
-                        {"125", "", "16" },    //Multiple Choice Questions (Non-time-framed)
-                        {"51", "112", "14" },    //PowerPoint Presentation
-                        {"82", " ", "5" }           //Programming
+                        {"13", "16", "15" }  //Term Paper
+                        //{"143", "18", "17" },    // Admission Services - Scholarship Essay
+                        //{"125", "", "16" },    //Multiple Choice Questions (Non-time-framed)
+                        //{"51", "112", "14" },    //PowerPoint Presentation
+                        //{"82", " ", "5" }           //Programming
                 }
         );
     }
