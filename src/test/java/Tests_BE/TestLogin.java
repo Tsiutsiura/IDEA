@@ -26,8 +26,8 @@ public  class TestLogin extends GeneralMethods {
     public static Collection testData() {
         return Arrays.asList(
                 new Object[][]{
-                        {"tsiutsiura.test@gmail.com", "keyfnbr123"}    /*,
-                        {"tsiutsiura", "keyfnbr"},
+                        {"tsiutsiura.test@gmail.com", "keyfnbr123"}   ,
+                        {"tsiutsiura", "keyfnbr"} /*,
                         {"tsiutsiura1115@gmail.com", "keyfnbr"},
                         {"   ", "keyfnbr"},
                         {"tsiutsiura1115@gmail.com", " "},
@@ -64,6 +64,7 @@ public  class TestLogin extends GeneralMethods {
                 .submitLoginPage();
 
         sleep(5000);
+
 
         assertEquals("This is login page" ,"https://www.bestessays.com/customer/orders/", driver.getCurrentUrl().toString());
     }
