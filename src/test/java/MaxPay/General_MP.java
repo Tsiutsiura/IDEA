@@ -10,7 +10,7 @@ public class General_MP extends Assert {
     }
 
     WebDriver driver = new ChromeDriver();
-    WebDriverWait wait = new WebDriverWait(driver, 10);
+    WebDriverWait wait = new WebDriverWait(driver, 25);
 
 
 

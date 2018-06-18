@@ -50,7 +50,9 @@ public class TestLoginValidation extends General_MP{
         loginPage.typePassword(password);
         loginPage.submitLoginPage();
 
+
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(loginPage.getErrorEmailOrPasswordLocator()));
+        System.out.println(driver.findElement(loginPage.getErrorEmailOrPasswordLocator()));
 
 
         /*try {
