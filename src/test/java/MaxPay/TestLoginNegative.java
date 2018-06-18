@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterTest;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -44,7 +45,14 @@ public class TestLoginNegative extends General_MP{
     }*/
 //@Test
   @Test
-  @Parameters({"\"\", \"Test\""})
+  @Parameters({
+          "\"\", \"Test\"",
+          "\"\", \"Test\"",
+          "\"\", \"Test\"",
+          "\"\", \"Test\"",
+          "\"\", \"Test\"",
+          "\"\", \"Test\""
+  })
     public void testLogin( String email, String password) throws Exception {
         openPage();
 
