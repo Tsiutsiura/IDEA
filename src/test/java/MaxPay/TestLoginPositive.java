@@ -15,7 +15,7 @@ import java.util.Collection;
 
 @RunWith(value = Parameterized.class)
 
-public class TestLogin_MP extends General_MP {
+public class TestLoginPositive extends General_MP {
 
     private String email;
     private String password;
@@ -42,7 +42,7 @@ public class TestLogin_MP extends General_MP {
 
     }
 
-    public TestLogin_MP(String email, String password) {
+    public TestLoginPositive(String email, String password) {
         this.email = email;
         this.password = password;
     }
