@@ -76,8 +76,8 @@ public class TestLoginPositive extends General_MP {
             wait.until(ExpectedConditions.visibilityOfElementLocated(loginPage.getErrorEmailOrPasswordLocator()));
             assertEquals("Error not matched, when problem with someone email or password", "Некорректны пароль или email", loginPage.errorEmailOrPassword().toString());
 
-            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(dashboard.getControlLocator()));
-            assertEquals("You a still on Login page", "https://my-sandbox.maxpay.com/app.php#/app/dashboard", driver.getCurrentUrl().toString());
+           /* wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(dashboard.getControlLocator()));
+            assertEquals("You a still on Login page", "https://my-sandbox.maxpay.com/app.php#/app/dashboard", driver.getCurrentUrl().toString());*/
 
 
         } catch (NoSuchElementException e){

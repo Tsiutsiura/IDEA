@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="8226e5c1-6128-46d5-a9be-d7beb0db6a7b" name="Rejected commit: Default (4)" comment="Payment form filling and transit to Thank you page" />
-    <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="">
+    <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="Payment form filling and transit to Thank you page">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/OrderCreateTest_BE.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/SeleniumDemoTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IDEA.iml" afterPath="$PROJECT_DIR$/.idea/IDEA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" afterPath="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
     </list>
     <ignored path="FirstProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,43 +30,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java">
+      <file leaf-file-name="OrderForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestLoginPositive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLoginPositive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="40" column="10" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="40" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestLoginNegative.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
+                <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestOrderCreate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThankYouPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/ThankYouPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preview.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Payment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="method#Payment#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeCvvField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeFirstNameField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeLastNameField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeAddressField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeCityField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeCountryField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typeZipField#0;class#Payment#0" expanded="false" />
+                <element signature="method#typePhoneField#0;class#Payment#0" expanded="false" />
+                <element signature="method#submitPayment#0;class#Payment#0" expanded="false" />
+                <element signature="method#totalPayment#0;class#Payment#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectToDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="558">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,11 +134,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>testData</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -110,18 +163,13 @@
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestValidationOF.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Payment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Preview.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" />
         <option value="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ClassA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/СlassB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginPositive.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java" />
       </list>
     </option>
   </component>
@@ -135,15 +183,12 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="568" />
-    <option name="y" value="5" />
-    <option name="width" value="773" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="198" />
+    <option name="width" value="1168" />
+    <option name="height" value="739" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -159,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +221,13 @@
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
@@ -201,19 +252,16 @@
             </path>
             <path>
               <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxPay" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,132 +287,6 @@
       <recent name="D:\Projects\IDEA\driver" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/chromedriver.exe</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/test.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Pages/HomePage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Pages/OrderForm.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Pages/Payment.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Pages/Preview.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Pages/ThankYouPage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/MaxPay/Dashboard_MP.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/MaxPay/LoginPage_MP.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/MaxPay/TestLoginValidation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/MaxPay/TestLogin_MP.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Pages/Prices.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Test.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/Tests_BE/TestPrices.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -377,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLoginNegative.testLogin">
+  <component name="RunManager" selected="Application.ConnectToDB">
     <configuration name="ConnectToDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -397,70 +319,6 @@
       <module name="IDEA" />
       <envs />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IDEA" />
-      <envs />
-    </configuration>
-    <configuration name="TestLoginNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaxPay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="IDEA" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxPay" />
-      <option name="MAIN_CLASS_NAME" value="MaxPay.TestLoginNegative" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestLoginNegative.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaxPay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="IDEA" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxPay" />
-      <option name="MAIN_CLASS_NAME" value="MaxPay.TestLoginNegative" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="TestOrderCreate.testCreateOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -474,6 +332,56 @@
       <option name="PACKAGE_NAME" value="Tests_BE" />
       <option name="MAIN_CLASS_NAME" value="Tests_BE.TestOrderCreate" />
       <option name="METHOD_NAME" value="testCreateOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestOrderCreate.testData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tests_BE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="IDEA" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Tests_BE" />
+      <option name="MAIN_CLASS_NAME" value="Tests_BE.TestOrderCreate" />
+      <option name="METHOD_NAME" value="testData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestValidationOF.testValidationOF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tests_BE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="IDEA" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Tests_BE" />
+      <option name="MAIN_CLASS_NAME" value="Tests_BE.TestValidationOF" />
+      <option name="METHOD_NAME" value="testValidationOF" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -760,20 +668,34 @@
       <envs />
       <method />
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IDEA" />
+      <envs />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConnectToDB" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestLoginNegative.testLogin" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestLoginNegative" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestValidationOF.testValidationOF" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testData" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConnectToDB" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestLoginNegative.testLogin" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestLoginNegative" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConnectToDB" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConnectToDB" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testData" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestValidationOF.testValidationOF" />
       </list>
     </recent_temporary>
   </component>
@@ -866,35 +788,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520004536389</updated>
     </task>
-    <task id="LOCAL-00011" summary="Payment form filling and transit to Thank you page">
-      <created>1520187691910</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1520187691910</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Payment form filling and transit to Thank you page">
-      <created>1529350074623</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1529350074623</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLoginNegative - 2018.06.18 at 22h 09m 21s.xml">
-      <configuration name="TestLoginNegative" configurationId="JUnit" />
+    <history-entry file="TestOrderCreate_testCreateOrder - 2018.02.12 at 17h 07m 33s.xml">
+      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginNegative_testLogin - 2018.06.18 at 22h 08m 56s.xml">
-      <configuration name="TestLoginNegative.testLogin" configurationId="JUnit" />
+    <history-entry file="TestOrderCreate_testCreateOrder - 2018.02.12 at 17h 11m 31s.xml">
+      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginNegative_testLogin - 2018.06.18 at 22h 23m 37s.xml">
-      <configuration name="TestLoginNegative.testLogin" configurationId="JUnit" />
+    <history-entry file="TestOrderCreate_testCreateOrder - 2018.02.12 at 17h 12m 03s.xml">
+      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginNegative_testLogin - 2018.06.18 at 22h 27m 04s.xml">
-      <configuration name="TestLoginNegative.testLogin" configurationId="JUnit" />
+    <history-entry file="TestOrderCreate_testCreateOrder - 2018.02.12 at 17h 14m 38s.xml">
+      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestOrderCreate_testCreateOrder - 2018.03.01 at 12h 31m 12s.xml">
       <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
@@ -916,23 +824,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="198" y="0" width="1168" height="739" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30427632" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30514097" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3172043" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4194079" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41791046" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28494623" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2193646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29693142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1017,6 +924,174 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="method#Payment#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCvvField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeFirstNameField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeLastNameField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeAddressField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCityField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCountryField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeZipField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typePhoneField#0;class#Payment#0" expanded="false" />
+            <element signature="method#submitPayment#0;class#Payment#0" expanded="false" />
+            <element signature="method#totalPayment#0;class#Payment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1042,9 +1117,9 @@
             <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1053,9 +1128,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding>
-            <marker date="1529346280218" expanded="true" signature="4407:4643" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,9 +1164,9 @@
             <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1102,9 +1175,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding>
-            <marker date="1529346280218" expanded="true" signature="4407:4643" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,9 +1211,9 @@
             <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1158,9 +1229,9 @@
             <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1169,9 +1240,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1529346280218" expanded="true" signature="4407:4643" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,9 +1269,9 @@
             <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1211,9 +1280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1529346280218" expanded="true" signature="4407:4643" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,9 +1309,9 @@
             <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
             <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1253,9 +1320,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1529346280218" expanded="true" signature="4407:4643" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,27 +1345,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Connection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/DriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+        <state relative-caret-position="391">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <marker date="1529346280218" expanded="true" signature="4407:4643" ph="{...}" />
+            <element signature="method#Payment#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCvvField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeFirstNameField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeLastNameField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeAddressField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCityField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeCountryField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typeZipField#0;class#Payment#0" expanded="false" />
+            <element signature="method#typePhoneField#0;class#Payment#0" expanded="false" />
+            <element signature="method#submitPayment#0;class#Payment#0" expanded="false" />
+            <element signature="method#totalPayment#0;class#Payment#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,192 +1416,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClassA.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#42#43#0" expanded="false" />
-            <element signature="e#93#94#0" expanded="false" />
-            <element signature="e#117#118#0" expanded="false" />
-            <element signature="e#160#161#0" expanded="false" />
-            <element signature="e#184#185#0" expanded="false" />
-            <element signature="e#227#228#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/СlassB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="1615">
+          <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/Parameterized.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/LoginPage_MP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#595#596#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="15" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-            <marker date="1529346280127" expanded="false" signature="5467:5474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/StoreCreditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Prices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="110">
+          <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="558">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLoginPositive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="40" column="10" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="40" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
