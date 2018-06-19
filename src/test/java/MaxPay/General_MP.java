@@ -24,7 +24,7 @@ public class General_MP extends Assert {
     }
 
     public void openPage() {
-        driver.get("https://my-sandbox.maxpay.com/#/signin");
+        driver.get("https://my.maxpay.com/#/signin");
         driver.manage().window().maximize();
     }
 }

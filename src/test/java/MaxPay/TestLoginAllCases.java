@@ -1,21 +1,21 @@
 package MaxPay;
 
-import Pages.Dashboard;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.AfterTest;
-import org.junit.runners.Parameterized.Parameters;
+import org.testng.annotations.BeforeTest;
 
 import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(value = Parameterized.class)
 
-public class TestLoginPositive extends General_MP {
+public class TestLoginAllCases extends General_MP {
 
     private String email;
     private String password;
@@ -42,14 +42,18 @@ public class TestLoginPositive extends General_MP {
 
     }
 
-    public TestLoginPositive(String email, String password) {
+    public TestLoginAllCases(String email, String password) {
         this.email = email;
         this.password = password;
     }
 
-    @Test
-    public void testLogin() throws Exception {
+    @BeforeTest
+    public void first(){
         openPage();
+    }
+
+    @Test
+    public void testLoginPositive() throws Exception {
 
         LoginPage_MP loginPage = new LoginPage_MP(driver);
 
@@ -93,6 +97,28 @@ public class TestLoginPositive extends General_MP {
 
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     @AfterTest
     public void tearDown() {
         //Close the browser
