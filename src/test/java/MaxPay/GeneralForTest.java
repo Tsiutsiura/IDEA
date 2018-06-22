@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class General_MP extends Assert {
-    public General_MP() {
+public class GeneralForTest extends Assert {
+    public GeneralForTest() {
     }
 
     WebDriver driver = new ChromeDriver();

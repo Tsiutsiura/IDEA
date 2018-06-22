@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.regex.Pattern;
@@ -120,7 +121,7 @@ public class TestOrderCreate extends GeneralMethods {
         dashboard.logOutFromCustomerProfile();*/
     }
 
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     public void tearDown() {
         //Close the browser
         driver.close();

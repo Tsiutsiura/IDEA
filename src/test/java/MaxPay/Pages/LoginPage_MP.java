@@ -1,4 +1,4 @@
-package MaxPay;
+package MaxPay.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +17,8 @@ public class LoginPage_MP {
 
     private By errorEmailLocator = By.id("login-email-error");
     private By errorPasswordLocator = By.id("login-password-error");
+    private By forgotPasswordLocator = By.linkText("Забыли пароль?");
+
 
     public LoginPage_MP(WebDriver driver) {
         this.driver = driver;
@@ -47,7 +49,9 @@ public class LoginPage_MP {
         return errorPasswordLocator;
     }
 
-
+    public By getForgotPasswordLocator() {
+        return forgotPasswordLocator;
+    }
 
     public LoginPage_MP typeEmail(String email) {
         driver.findElement(emailLocator).click();
@@ -75,6 +79,9 @@ public class LoginPage_MP {
 
     }
 
+    public void goToForgotPassword(){
+        driver.findElement(forgotPasswordLocator).click();
+    }
 
     public Dashboard_MP submitLoginPage() {
         driver.findElement(submitButtonLocator).click();

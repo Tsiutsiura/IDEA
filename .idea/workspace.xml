@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="8226e5c1-6128-46d5-a9be-d7beb0db6a7b" name="Rejected commit: Default (4)" comment="Payment form filling and transit to Thank you page" />
-    <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="Payment form filling and transit to Thank you page">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/IDEA.iml" afterPath="$PROJECT_DIR$/.idea/IDEA.iml" />
+    <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/TestForgotPassword.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginPositive.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginAllCases.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/Dashboard_MP.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/Dashboard_MP.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/GeneralForTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/LoginPage_MP.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage_MP.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginAllCases.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" afterPath="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" />
     </list>
     <ignored path="FirstProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,55 +31,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="General_MP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java">
+      <file leaf-file-name="GeneralForTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/GeneralForTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="186">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLogin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java">
+      <file leaf-file-name="TestOrderCreate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="526">
+              <caret line="123" column="15" lean-forward="false" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Dashboard_MP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/Dashboard_MP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="21" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="68">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java">
+      <file leaf-file-name="LoginPage_MP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage_MP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="408">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2274#2275#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneralMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java">
+      <file leaf-file-name="ConnectToDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,14 +132,18 @@
         <option value="$PROJECT_DIR$/src/test/java/Pages/Payment.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Preview.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginAllCases.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginPositive.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLoginAllCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/LoginPage_MP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestForgotPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/Pages/Dashboard_MP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage_MP.java" />
       </list>
     </option>
   </component>
@@ -148,9 +158,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="2061" />
+    <option name="y" value="-21" />
+    <option name="width" value="1934" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,19 +232,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests_BE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="MaxPay" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,32 +281,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogin.testLoginNegative2">
+  <component name="RunManager" selected="JUnit.TestForgotPassword.testMoveToForgotPassword">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ConnectToDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="DB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="DB.ConnectToDB" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IDEA" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -317,10 +303,10 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="TestLoginNegative.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestForgotPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MaxPay.*" />
+          <option name="PATTERN" value="MaxPay.Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,7 +314,57 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="MaxPay" />
-      <option name="MAIN_CLASS_NAME" value="MaxPay.TestLoginNegative" />
+      <option name="MAIN_CLASS_NAME" value="MaxPay.TestForgotPassword" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestForgotPassword.testMoveToForgotPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="MaxPay.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="IDEA" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPay" />
+      <option name="MAIN_CLASS_NAME" value="MaxPay.TestForgotPassword" />
+      <option name="METHOD_NAME" value="testMoveToForgotPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestLogin.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="MaxPay.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="IDEA" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="MaxPay" />
+      <option name="MAIN_CLASS_NAME" value="MaxPay.TestLogin" />
       <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -342,10 +378,10 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestLogin.testLoginNegative2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogin.testMoveToForgotPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MaxPay.*" />
+          <option name="PATTERN" value="MaxPay.Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,7 +390,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="MaxPay" />
       <option name="MAIN_CLASS_NAME" value="MaxPay.TestLogin" />
-      <option name="METHOD_NAME" value="testLoginNegative2" />
+      <option name="METHOD_NAME" value="testMoveToForgotPassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -367,32 +403,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestLogin.testLoginPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaxPay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="IDEA" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxPay" />
-      <option name="MAIN_CLASS_NAME" value="MaxPay.TestLogin" />
-      <option name="METHOD_NAME" value="testLoginPositive" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestOrderCreate.testCreateOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOrderCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Tests_BE.*" />
@@ -404,8 +415,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Tests_BE" />
       <option name="MAIN_CLASS_NAME" value="Tests_BE.TestOrderCreate" />
-      <option name="METHOD_NAME" value="testCreateOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -671,19 +682,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConnectToDB" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestLoginNegative.testLogin" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestLogin.testLoginPositive" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestLogin.testLoginNegative2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestOrderCreate" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestLogin.testLogin" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestLogin.testMoveToForgotPassword" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestForgotPassword.testMoveToForgotPassword" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestForgotPassword" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestLogin.testLoginNegative2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestLogin.testLoginPositive" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestLoginNegative.testLogin" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConnectToDB" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestForgotPassword.testMoveToForgotPassword" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestForgotPassword" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestLogin.testMoveToForgotPassword" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestLogin.testLogin" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestOrderCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -776,71 +787,78 @@
       <option name="project" value="LOCAL" />
       <updated>1520004536389</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Payment form filling and transit to Thank you page">
+      <created>1529417562306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529417562306</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLoginPositive_testLoginPositive - 2018.06.19 at 09h 52m 23s.xml">
-      <configuration name="TestLoginPositive.testLoginPositive" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 42m 49s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginPositive_testLoginPositive - 2018.06.19 at 09h 53m 23s.xml">
-      <configuration name="TestLoginPositive.testLoginPositive" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 42m 59s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginPositive_testLoginPositive - 2018.06.19 at 09h 54m 01s.xml">
-      <configuration name="TestLoginPositive.testLoginPositive" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 43m 52s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginPositive_testLoginPositive - 2018.06.19 at 09h 54m 40s.xml">
-      <configuration name="TestLoginPositive.testLoginPositive" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 44m 28s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginPositive_testLoginPositive - 2018.06.19 at 09h 55m 17s.xml">
-      <configuration name="TestLoginPositive.testLoginPositive" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 46m 52s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestLoginPositive_testLoginPositive - 2018.06.19 at 09h 55m 52s.xml">
-      <configuration name="TestLoginPositive.testLoginPositive" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 48m 01s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOrderCreate_testCreateOrder - 2018.03.01 at 12h 57m 06s.xml">
-      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 51m 04s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOrderCreate_testCreateOrder - 2018.03.01 at 12h 59m 27s.xml">
-      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 51m 54s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOrderCreate_testCreateOrder - 2018.03.01 at 13h 00m 57s.xml">
-      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
+    <history-entry file="TestForgotPassword_testMoveToForgotPassword - 2018.06.22 at 10h 52m 22s.xml">
+      <configuration name="TestForgotPassword.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestOrderCreate_testData - 2018.02.12 at 17h 06m 38s.xml">
-      <configuration name="TestOrderCreate.testData" configurationId="JUnit" />
+    <history-entry file="TestLoginAllCases_testMoveToForgotPassword - 2018.06.22 at 10h 40m 08s.xml">
+      <configuration name="TestLoginAllCases.testMoveToForgotPassword" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3043478" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3172043" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4173913" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28494623" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41694537" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18176973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3560517" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3556299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3043478" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278496" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -903,8 +921,16 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java</url>
+          <line>124</line>
+          <properties class="Tests_BE.TestOrderCreate" method="tearDown">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="44" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -913,77 +939,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="81" column="20" lean-forward="false" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1006,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,7 +1055,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,7 +1122,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,7 +1164,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,7 +1206,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1300,14 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="75" lean-forward="false" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Payment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1331,51 +1295,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="108" column="49" lean-forward="false" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/LoginPage_MP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/General_MP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLoginNegative.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="53" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLoginAllCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1388,14 +1312,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/annotations/AfterTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaDemo/src/main/java/GoogleSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DB/ConnectToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/GeneralForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="194" column="102" lean-forward="false" selection-start-line="194" selection-start-column="102" selection-end-line="194" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="77" column="27" lean-forward="true" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/TestForgotPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="123" column="15" lean-forward="false" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/Dashboard_MP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage_MP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
           </folding>
         </state>
       </provider>
