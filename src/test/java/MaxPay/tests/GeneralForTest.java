@@ -1,6 +1,7 @@
-package MaxPay;
+package MaxPay.tests;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,18 +14,31 @@ public class GeneralForTest extends Assert {
     WebDriverWait wait = new WebDriverWait(driver, 25);
 
 
-
-
     public void sleep(int time) {
         //явное ожидание
-        try {  Thread.sleep(time); } catch (InterruptedException e) {e.printStackTrace(); }
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         //неявное ожидание
         /* driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);*/
 
     }
 
+    @Before
     public void openPage() {
         driver.get("https://my.maxpay.com/#/signin");
         driver.manage().window().maximize();
     }
+     /*@After
+    public void tearDown() {
+        //Close the browser
+        driver.close();
+        String verificationErrorString = verificationErrors.toString();
+
+        if (!"".equals(verificationErrorString)) {
+            fail(verificationErrorString);
+        }
+    }*/
 }

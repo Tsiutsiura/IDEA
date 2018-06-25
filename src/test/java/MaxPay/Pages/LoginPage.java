@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import static org.junit.Assert.assertEquals;
 
-public class LoginPage_MP {
+public class LoginPage {
 
     private final WebDriver driver;
 
@@ -18,9 +18,10 @@ public class LoginPage_MP {
     private By errorEmailLocator = By.id("login-email-error");
     private By errorPasswordLocator = By.id("login-password-error");
     private By forgotPasswordLocator = By.linkText("Забыли пароль?");
+    private By signUpLinkLocator = By.linkText("Зарегистрироваться");
 
 
-    public LoginPage_MP(WebDriver driver) {
+    public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -53,13 +54,13 @@ public class LoginPage_MP {
         return forgotPasswordLocator;
     }
 
-    public LoginPage_MP typeEmail(String email) {
+    public LoginPage typeEmail(String email) {
         driver.findElement(emailLocator).click();
         driver.findElement(emailLocator).sendKeys(email);
         return this;
     }
 
-    public LoginPage_MP typePassword(String password) {
+    public LoginPage typePassword(String password) {
         driver.findElement(passwordLocator).click();
         driver.findElement(passwordLocator).sendKeys(password);
         return this;
@@ -83,10 +84,13 @@ public class LoginPage_MP {
         driver.findElement(forgotPasswordLocator).click();
     }
 
-    public Dashboard_MP submitLoginPage() {
+    public Dashboard submitLoginPage() {
         driver.findElement(submitButtonLocator).click();
-        return new Dashboard_MP(driver);
+        return new Dashboard(driver);
     }
-
+    public SignUp beginSignUp() {
+        driver.findElement(signUpLinkLocator).click();
+        return new SignUp(driver);
+    }
 
 }
