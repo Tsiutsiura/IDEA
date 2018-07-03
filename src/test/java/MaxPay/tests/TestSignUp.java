@@ -7,39 +7,40 @@ import org.junit.Test;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
-public class TestSignUp extends GeneralForTest{
+public class TestSignUp extends GeneralForTest {
 
 
     @Test
-    public void testMoveToSignUp(){
+    public void testMoveToSignUp() {
         LoginPage loginPage = new LoginPage(driver);
         wait.until(ExpectedConditions.visibilityOfElementLocated(loginPage.getEmailLocator()));
         SignUp signUp = loginPage.beginSignUp();
 
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(signUp.getEmailLocator()));
-         assertEquals("You a still on Login page", signUp.getURL(), driver.getCurrentUrl().toString());
+        assertEquals("You a still on Login page", signUp.getURL(), driver.getCurrentUrl().toString());
     }
 
     @Test
-    public void testCreateNewClient (){
+    public void testCreateNewClient() {
         LoginPage loginPage = new LoginPage(driver);
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(loginPage.getEmailLocator()));
 
-       SignUp signUp = loginPage.beginSignUp();
+        SignUp signUp = loginPage.beginSignUp();
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(signUp.getEmailLocator()));
 
-       /* signUp.enterEmail("test");
-        signUp.enterPassword("test");
-        signUp.enterConfirmPassword("test");*/
+        signUp.enterEmail("test"+Math.round(Math.random()*10000)+"@test.com");
+        signUp.enterPassword("Test1234");
+        signUp.enterConfirmPassword("Test1234");
 
-       sleep(20);
+
         signUp.agreeTerms();
-        wait.until(ExpectedConditions.elementToBeSelected(signUp.getAgreeTermsCheckboxLocator()));
         signUp.agreeEmail();
-        wait.until(ExpectedConditions.elementToBeSelected(signUp.getAgreeEmailLocator()));
         signUp.agreeCookies();
-        wait.until(ExpectedConditions.elementToBeSelected(signUp.getAgreeCookiesLocator()));
+        sleep(5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(signUp.getSubmitButtonLocator()));
+      /*  signUp.submitForm();
+       assertEquals("You are still on registration form","https://my.maxpay.com/app.php#/app/dashboard", driver.getCurrentUrl().toString());*/
 
     }
 }

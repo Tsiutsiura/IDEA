@@ -3,17 +3,19 @@
   <component name="ChangeListManager">
     <list id="8226e5c1-6128-46d5-a9be-d7beb0db6a7b" name="Rejected commit: Default (4)" comment="Payment form filling and transit to Thank you page" />
     <list default="true" id="217aed5a-12e9-48b0-9ca0-3dc566487b4c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Collection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorld.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldPublisher.java" />
       <change beforePath="$PROJECT_DIR$/.idea/IDEA.iml" afterPath="$PROJECT_DIR$/.idea/IDEA.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/GeneralForTest.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/Dashboard_MP.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/Dashboard.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage_MP.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestForgotPassword.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestForgotPassword.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestLogin.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" afterPath="$PROJECT_DIR$/src/main/java/test.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java" afterPath="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumDemo.class" afterPath="$PROJECT_DIR$/target/classes/SeleniumDemo.class" />
     </list>
     <ignored path="FirstProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +36,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/tests/TestLogin.java">
+      <file leaf-file-name="HelloWorldPublisher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSignUp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java">
+      <file leaf-file-name="HelloWorldClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,12 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java">
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/javax/xml/ws/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="19" column="141" lean-forward="false" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+            <state relative-caret-position="226">
+              <caret line="705" column="30" lean-forward="false" selection-start-line="705" selection-start-column="15" selection-end-line="705" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +89,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TestNG Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,10 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Arrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_001_task/Arrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_001_task/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tasks/task1.java" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
         <option value="$PROJECT_DIR$/src/test/java/General.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumDemoTest.java" />
@@ -104,7 +118,6 @@
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/TestValidationOF.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Payment.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/OrderForm.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Preview.java" />
@@ -123,10 +136,27 @@
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/TestSignUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Incapsulation/B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Incapsulation/A.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapUITester.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/HelloClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/HelloWorldImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/HelloWorldClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/HelloWorldPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/task2/HelloClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/task2/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/task2/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldClient.java" />
       </list>
     </option>
   </component>
@@ -157,11 +187,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -170,7 +200,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IDEA" type="58d84e3e:PackageViewProjectNode" />
+              <item name="IDEA" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +241,23 @@
               <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
               <item name="IDEA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SoapTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SoapTest" type="462c0819:PsiDirectoryNode" />
+              <item name="hellowWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,39 +266,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxPay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxPay" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests_BE" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,12 +289,16 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Tests_BE" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SoapTest.task2" />
+      <recent name="SoapTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="MaxPay" />
       <recent name="MaxPay.Pages" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yulia.Tsyutsyura\IdeaProjects\IDEA" />
@@ -282,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSignUp.testCreateNewClient">
+  <component name="RunManager" selected="Application.HelloWorldClient">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -290,14 +326,52 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ConnectToDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="DB.*" />
+          <option name="PATTERN" value="SoapTest.hellowWorld.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="DB.ConnectToDB" />
+      <option name="MAIN_CLASS_NAME" value="SoapTest.hellowWorld.HelloWorldClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IDEA" />
+      <envs />
+    </configuration>
+    <configuration name="HelloWorldPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="SoapTest.hellowWorld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="SoapTest.hellowWorld.HelloWorldPublisher" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IDEA" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Incapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Incapsulation.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -323,55 +397,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="TestLogin.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaxPay.Pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="IDEA" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxPay.tests" />
-      <option name="MAIN_CLASS_NAME" value="MaxPay.tests.TestLogin" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestOrderCreate.testCreateOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Tests_BE.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <module name="IDEA" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Tests_BE" />
-      <option name="MAIN_CLASS_NAME" value="Tests_BE.TestOrderCreate" />
-      <option name="METHOD_NAME" value="testCreateOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
       <envs />
-      <patterns />
     </configuration>
     <configuration name="TestSignUp.testCreateNewClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -386,31 +424,6 @@
       <option name="PACKAGE_NAME" value="MaxPay.tests" />
       <option name="MAIN_CLASS_NAME" value="MaxPay.tests.TestSignUp" />
       <option name="METHOD_NAME" value="testCreateNewClient" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestSignUp.testMoveToSignUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MaxPay.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="IDEA" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="MaxPay.tests" />
-      <option name="MAIN_CLASS_NAME" value="MaxPay.tests.TestSignUp" />
-      <option name="METHOD_NAME" value="testMoveToSignUp" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -677,19 +690,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestLogin.testLogin" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConnectToDB" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSignUp.testMoveToSignUp" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSignUp.testCreateNewClient" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSignUp.testCreateNewClient" />
+      <item index="1" class="java.lang.String" itemvalue="Application.test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldPublisher" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HelloWorldClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSignUp.testCreateNewClient" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSignUp.testMoveToSignUp" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestOrderCreate.testCreateOrder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConnectToDB" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestLogin.testLogin" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HelloWorldPublisher" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSignUp.testCreateNewClient" />
       </list>
     </recent_temporary>
   </component>
@@ -796,39 +809,46 @@
       <option name="project" value="LOCAL" />
       <updated>1529654070385</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Payment form filling and transit to Thank you page">
+      <created>1529932944641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1529932944641</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestForgotPassword - 2018.06.25 at 12h 27m 00s.xml">
-      <configuration name="TestForgotPassword" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLogin_testLogin - 2018.06.22 at 14h 57m 43s.xml">
-      <configuration name="TestLogin.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestOrderCreate_testCreateOrder - 2018.06.23 at 16h 06m 36s.xml">
-      <configuration name="TestOrderCreate.testCreateOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.25 at 15h 38m 59s.xml">
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 38m 12s.xml">
       <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.25 at 15h 40m 04s.xml">
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 40m 46s.xml">
       <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.25 at 15h 43m 38s.xml">
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 42m 24s.xml">
       <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.25 at 15h 43m 54s.xml">
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 44m 01s.xml">
       <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSignUp_testMoveToSignUp - 2018.06.25 at 12h 28m 12s.xml">
-      <configuration name="TestSignUp.testMoveToSignUp" configurationId="JUnit" />
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 45m 38s.xml">
+      <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSignUp_testMoveToSignUp - 2018.06.25 at 12h 29m 27s.xml">
-      <configuration name="TestSignUp.testMoveToSignUp" configurationId="JUnit" />
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 45m 55s.xml">
+      <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSignUp_testMoveToSignUp - 2018.06.25 at 15h 38m 48s.xml">
-      <configuration name="TestSignUp.testMoveToSignUp" configurationId="JUnit" />
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 47m 20s.xml">
+      <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 48m 15s.xml">
+      <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.26 at 14h 50m 10s.xml">
+      <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSignUp_testCreateNewClient - 2018.06.27 at 11h 36m 21s.xml">
+      <configuration name="TestSignUp.testCreateNewClient" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -843,18 +863,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3172043" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32887402" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28494623" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41694537" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32329988" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18176973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3556299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -932,7 +953,7 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -941,177 +962,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
           <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/GeneralMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Preview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="71" />
-          <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1152,6 +1008,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
             <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
@@ -1180,42 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
-            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="194" column="102" lean-forward="false" selection-start-line="194" selection-start-column="102" selection-end-line="194" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,7 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,27 +1122,6 @@
         <state relative-caret-position="204">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#217#234#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,30 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="13" selection-end-column="73" />
-          <folding>
-            <element signature="method#Payment#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeNumberCardField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeMonthField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeYearField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeCvvField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeFirstNameField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeLastNameField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeAddressField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeCityField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeCountryField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typeZipField#0;class#Payment#0" expanded="false" />
-            <element signature="method#typePhoneField#0;class#Payment#0" expanded="false" />
-            <element signature="method#submitPayment#0;class#Payment#0" expanded="false" />
-            <element signature="method#totalPayment#0;class#Payment#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="123" column="15" lean-forward="false" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,36 +1159,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/tests/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="442">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="19" column="141" lean-forward="false" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+        <state relative-caret-position="102">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests_BE/TestOrderCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/OrderForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#typeFieldFirstName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldLastName#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldEmail#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldMobilePhone#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeFieldCountry#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#typeDoctype#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#submitOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#cppOrderForm#0;class#OrderForm#0" expanded="false" />
+            <element signature="method#totalOrderForm#0;class#OrderForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.53.1/selenium-remote-driver-2.53.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Incapsulation/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Incapsulation/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapUITester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SeleniumDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/tests/TestSignUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="271">
+          <caret line="18" column="98" lean-forward="false" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/Pages/SignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#enterEmail#0;class#SignUp#0" expanded="false" />
+            <element signature="method#enterPassword#0;class#SignUp#0" expanded="false" />
+            <element signature="method#enterConfirmPassword#0;class#SignUp#0" expanded="false" />
+            <element signature="method#agreeTerms#0;class#SignUp#0" expanded="false" />
+            <element signature="method#agreeEmail#0;class#SignUp#0" expanded="false" />
+            <element signature="method#agreeCookies#0;class#SignUp#0" expanded="false" />
+            <element signature="method#submitForm#0;class#SignUp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MaxPay/tests/GeneralForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/task2/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/task2/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/task2/HelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/javax/xml/namespace/QName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/javax/xml/ws/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="705" column="30" lean-forward="false" selection-start-line="705" selection-start-column="15" selection-end-line="705" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SoapTest/hellowWorld/HelloWorldClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -6,12 +6,12 @@ public class test {
 
         int[] arr = new int[]{2, 5, 1, 0, 6, 3, 4};
 
-        //bubbleSort(arr);
+        bubbleSort2(arr);
         //selectionSort(arr);
 
         int low = 0;
         int high = arr.length -1;
-        quickSort(arr, low, high);
+        //quickSort(arr, low, high);
 
         printArray(arr);
 
@@ -60,7 +60,21 @@ public class test {
             }
         }
     }
+    public static void bubbleSort2(int[] arr) {
+        for (int i = 0; i < arr.length ; i++) {
+            for (int j = 0; j < arr.length-1-i; j++) {
+            /*Сравниваем элементы попарно,
+              если они имеют неправильный порядок,
+              то меняем местами*/
+                if (arr[j] > arr[j+1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
+                }
 
+            }
+        }
+    }
 
         public static void quickSort(int[] arr, int low, int high) {
             if (arr.length == 0)
